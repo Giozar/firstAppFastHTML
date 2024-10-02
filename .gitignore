@@ -1,0 +1,38 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de configuración del entorno de desarrollo
+*.env
+.env.*
+
+# Ignorar bases de datos SQLite (si las usas)
+*.sqlite3
+
+# Ignorar archivos de migraciones (si usas frameworks como Django o Flask con migraciones de bases de datos)
+migrations/
+
+# Ignorar archivos de configuración de IDEs (por ejemplo, VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignorar archivos temporales creados por editores y sistemas operativos
+*.swp  # Archivos temporales de Vim
+*.swo
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignorar archivos generados por herramientas de empaquetado y despliegue
+dist/
+build/
+*.egg-info/
+
+# Información y llaves sensibles
+.sesskey
